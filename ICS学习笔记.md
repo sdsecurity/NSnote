@@ -96,7 +96,7 @@ Siemens S7
 
 测试脚本
 
-1
+
 
 CIP
 
@@ -105,13 +105,14 @@ CIP
 #### enip-enumerate.nse
 
 
+
 Modbus
 
-502
+#### 端口号：502
 
-modicon-info.nse
+#### modicon-info.nse
 
-3
+
 
 IEC 61870-5-101/104
 
