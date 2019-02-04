@@ -116,26 +116,26 @@ Modbus
 
 IEC 61870-5-101/104
 
-2404
+#### 端口号：2404
 
-iec-identify.nse
+#### iec-identify.nse
 
-4
+
 
 Siemens S7
 
-102
+#### 端口号：102
 
-s7-enumerate.nse
-mms-identify.nse
+#### s7-enumerate.nse
+#### mms-identify.nse
 
-5
+
 
 Tridium Niagara Fox
 
-1911
+#### 端口号：1911
 
-fox-info.nse
+#### fox-info.nse
 
 PS：简要测试，大量脚本自行测试。
 
@@ -153,6 +153,7 @@ Zoomeye搜索
  
 
 PS：敏感信息，你懂得。
+
 
 Ethernet/IP  44818
 nmap -p 44818 --script enip-enumerate.nse  85.132.179.*
