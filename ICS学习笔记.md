@@ -155,25 +155,29 @@ Zoomeye搜索
 PS：敏感信息，你懂得。
 
 
+
+
 #### Ethernet/IP  44818
+
+
 
 nmap -p 44818 --script enip-enumerate.nse  85.132.179.*
 
  
 
-Modbus  502
+#### Modbus  502
 nmap --script modicon-info.nse -Pn -p 502 -sV 91.83.43.*
 
  
 
  
 
-IEC 61870-5-101/104  2404
+#### IEC 61870-5-101/104  2404
 nmap -Pn -n -d --script iec-identify.nse  --script-args=iec-identify -p 2404 80.34.253.*
 
  
 
-Siemens S7  102
+#### Siemens S7  102
 nmap -p 102 --script s7-enumerate -sV 140.207.152.*
 
  
@@ -182,13 +186,13 @@ nmap -d --script mms-identify.nse  --script-args='mms-identify.timeout=500' -p 1
 
  
 
-Tridium Niagara Fox  1911
+#### Tridium Niagara Fox  1911
 nmap -p 1911 --script fox-info 99.55.238.*
 
  
 
 意义何在
-         上述NSE脚本意义：
+上述NSE脚本意义：
 
 定位工控系统及协议模块。
 收集目标工控的信息，如版本、内网IP、模块、硬件信息等。
