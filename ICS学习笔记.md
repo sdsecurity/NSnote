@@ -14,8 +14,7 @@ AFDX ARINC 429 CAN ARINC 825 SAE J1939 NMEA 2000 FMS Factory Instrumentation Pro
 
 
 
-**
-SCADA：数据采集与监视控制系统
+**SCADA：数据采集与监视控制系统
 
 ICS：工业控制系统
 
@@ -37,29 +36,27 @@ MIS：管理信息系统(Management Information System)
 
 SIS： 生产过程自动化监控和管理系统（Supervisory Information System）
 
-MES：制造执行管理系统
-**
+MES：制造执行管理系统**
 
 
 
-
-协议科普
+## 协议端口及测试脚本
 Modbus
 MODBUS协议定义了一个与基础通信层无关的简单协议数据单元（PDU）。特定总线或网络上的MODBUS协议映射能够在应用数据单元（ADU）上引入一些附加域。
 
  
 
-安全问题
+### 安全问题
 
 缺乏认证：仅需要使用一个合法的Modbus地址和合法的功能码即可以建立一个Modbus会话
 缺乏授权：没有基于角色的访问控制机制， 任意用户可以执行任意的功能。
 缺乏加密：地址和命令明文传输， 可以很容易地捕获和解析
  
 
-PROFIBUS
+### PROFIBUS
 一种用于工厂自动化车间级监控和现场设备层数据通信与控制的现场总线技术，可实现现场设备层到车间级监控的分散式数字控制和现场通信网络
 
-DNP3
+### DNP3
 DNP(Distributed Network Protocol,分布式网络协议)是一种应用于自动化组件之间的通讯协议，常见于电力、水处理等行业。
 
 简化OSI模型，只包含了物理层，数据层与应用层的体系结构（EPA）。
