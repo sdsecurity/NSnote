@@ -1,4 +1,6 @@
-nmap   -p 6379 -oG ip1.txt 198.251.64.0/20   oG是标准化输出，方便grep cut awk进行切割
+nmap   -p 6379 -oG ip1.txt 198.251.64.0/20   
+
+oG是标准化输出，方便grep cut awk进行切割
 
 
 
